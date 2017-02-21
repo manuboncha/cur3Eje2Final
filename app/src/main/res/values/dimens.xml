@@ -1,0 +1,18 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- Tamaño de letras -->
+    <dimen name="activity_cc_titulo">28sp</dimen>
+    <dimen name="activity_cc_datos">20sp</dimen>
+
+    <!-- Margenes entre vistas -->
+    <dimen name="margen_izq_entreVistas">10dp</dimen>
+
+    <!-- Dimension de Iconos -->
+    <dimen name="dimension_iconos_texto">38dp</dimen>
+
+    <!-- Espacio entre lineas -->
+    <dimen name="espacio_lineas">10dp</dimen>
+</resources>

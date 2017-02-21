@@ -1,0 +1,28 @@
+<resources>
+    <!-- Titulo -->
+    <string name="app_name">Contactos</string>
+
+    <!-- Botones -->
+    <string name="app_btn_sig">Siguiente</string>
+    <string name="app_btn_cc_editarDatos">Editar Datos</string>
+    <!-- Descripcion de botones -->
+    <string name="app_btn_descript_cal_naci">Seleccionar la fecha de nacimiento</string>
+
+    <!-- campos de texto  -->
+    <string name="app_hint_et_nombre">Nombre Completo</string>
+    <string name="app_hint_et_fech_nacimiento">Fecha nacimiento</string>
+    <string name="app_hint_et_tel">Teléfono</string>
+    <string name="app_hint_et_mail">E-mail</string>
+    <string name="app_hint_et_descript">Descripción Contacto</string>
+
+    <!-- texto confirmacion contactos -->
+    <string name="app_cc_titulo">Confirmar Datos</string>
+
+    <!-- nombre de variables a enviar por Intent a otro activity -->
+    <string name="pnombre">Nombre</string>
+    <string name="pfechaNacimiento">FechaNacimiento</string>
+    <string name="ptelefono">Telefono</string>
+    <string name="pemail">Email</string>
+    <string name="pdescripcion">Descripcion</string>
+
+</resources>

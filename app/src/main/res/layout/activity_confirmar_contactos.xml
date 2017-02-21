@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_confirmar_contactos"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.manuboncha.appcontactos.ConfirmarContactos"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/tv_cc_titulo"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/app_cc_titulo"
+        android:textStyle="bold"
+        android:textSize="@dimen/activity_cc_titulo"
+        android:textAlignment="center"
+        />
+
+    <LinearLayout
+        android:id="@+id/ll_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imgv_icoName"
+            android:layout_width="@dimen/dimension_iconos_texto"
+            android:layout_height="@dimen/dimension_iconos_texto"
+            android:src="@drawable/ico_name"
+            />
+
+        <TextView
+            android:id="@+id/tv_cc_nombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/activity_cc_datos"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/margen_izq_entreVistas"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_nacimiento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/espacio_lineas">
+
+        <ImageView
+            android:id="@+id/imgv_icoNacimiento"
+            android:layout_width="@dimen/dimension_iconos_texto"
+            android:layout_height="@dimen/dimension_iconos_texto"
+            android:src="@drawable/ico_fech_nacimiento"
+            android:scaleType="center"
+            />
+
+        <TextView
+            android:id="@+id/tv_cc_fechaNacimiento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/activity_cc_datos"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/margen_izq_entreVistas"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_telefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/espacio_lineas">
+
+        <ImageView
+            android:id="@+id/imgv_icoTelefono"
+            android:layout_width="@dimen/dimension_iconos_texto"
+            android:layout_height="@dimen/dimension_iconos_texto"
+            android:src="@drawable/ico_telefono"
+            />
+
+        <TextView
+            android:id="@+id/tv_cc_tel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/activity_cc_datos"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/margen_izq_entreVistas"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_mail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/espacio_lineas">
+
+        <ImageView
+            android:id="@+id/imgv_icoEmail"
+            android:layout_width="@dimen/dimension_iconos_texto"
+            android:layout_height="@dimen/dimension_iconos_texto"
+            android:src="@drawable/ico_mail"
+            android:scaleType="center"
+            />
+
+        <TextView
+            android:id="@+id/tv_cc_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/activity_cc_datos"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/margen_izq_entreVistas"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_descripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/espacio_lineas">
+
+        <ImageView
+            android:id="@+id/imgv_icoDescripcion"
+            android:layout_width="@dimen/dimension_iconos_texto"
+            android:layout_height="@dimen/dimension_iconos_texto"
+            android:src="@drawable/ico_descripcion"
+            android:scaleType="center"
+            />
+        <TextView
+            android:id="@+id/tv_cc_descripcion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/activity_cc_datos"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/margen_izq_entreVistas"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/bnt_cd_editarDatos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/espacio_lineas"
+        android:text="@string/app_btn_cc_editarDatos"
+        android:theme="@style/st_btn_raised"
+        android:onClick="editarCampos"/>
+
+</LinearLayout>
